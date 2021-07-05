@@ -1,0 +1,18 @@
+{
+    "name": "djole/testapp",
+    "autoload": {
+        "psr-4": {
+            "Djole\\Testapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "djolemc",
+            "email": "dragoljubd@gmail.com"
+        }
+    ],
+    "require": {
+        "dannyvankooten/php-router": "dev-master"
+    },
+    "minimum-stability": "dev"
+}

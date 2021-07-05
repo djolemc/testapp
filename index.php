@@ -1,10 +1,10 @@
 <?php
-require 'config/init.php';
+require 'config'.DIRECTORY_SEPARATOR.'init.php';
 
 
-$dbHandle = new PDO("mysql:host=$host;dbname=$db", $username, $password);
-$dbHandle->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-$dbHandle->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+//$dbHandle = new PDO("mysql:host=$host;dbname=$db", $username, $password);
+//$dbHandle->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//$dbHandle->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
 
 

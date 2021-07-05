@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Models\Student.php';
+require_once 'Models'.DIRECTORY_SEPARATOR.'Student.php';
 
 class StudentController
 {
